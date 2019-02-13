@@ -88,6 +88,7 @@ require_once( POLITIS_DIR_PATH_INC . 'wp_bootstrap_pagination.php' );
 require_once( POLITIS_DIR_PATH_INC . 'customizer/customizer.php' );
 require_once( POLITIS_DIR_PATH_CLASSES . 'Class-Enqueue.php' );
 require_once( POLITIS_DIR_PATH_CLASSES . 'Class-Config.php' );
+require_once( POLITIS_DIR_PATH_INC . 'politis-companion/politis-companion.php' );
 require_once( POLITIS_DIR_PATH_HOOKS . 'hooks.php' );
 require_once( POLITIS_DIR_PATH_HOOKS . 'hooks-functions.php' );
 require_once( POLITIS_DIR_PATH_INC . 'class-epsilon-dashboard-autoloader.php' );
