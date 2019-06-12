@@ -14,8 +14,8 @@ if( !defined( 'WPINC' ) ){
     // Politis meta scripts enqueue
     add_action( 'admin_enqueue_scripts', 'politis_meta_scripts' );
     function politis_meta_scripts() {
-        wp_enqueue_style( 'politis-meta-style', plugins_url( 'assets/css/politis-meta.css', __FILE__ ) );
-        wp_enqueue_script( 'politis-meta-script', plugins_url( 'assets/js/politis-meta.js', __FILE__ ), array('jquery'), '1.0', true );
+        wp_enqueue_style( 'politis-meta-style', POLITIS_COMPANION_DIR_META_URL .'assets/css/politis-meta.css' );
+        wp_enqueue_script( 'politis-meta-script', POLITIS_COMPANION_DIR_META_URL. 'assets/js/politis-meta.js', array('jquery'), '1.0', true );
     }
 
     // Page Header select option meta

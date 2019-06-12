@@ -63,7 +63,7 @@
                     $args = array(
                         'theme_location' => 'primary-menu',
                         'container'      => '',
-                        'depth'          => 2,
+                        'depth'          => 3,
                         'menu_class'     => 'nav-menu',
                         'fallback_cb'    => 'politis_bootstrap_navwalker::fallback',
                         'walker'         => new politis_bootstrap_navwalker(),

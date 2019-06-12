@@ -43,4 +43,9 @@ if( ! defined( 'POLITIS_COMPANION_DIR_URL' ) ) {
     define( 'POLITIS_COMPANION_DIR_URL', POLITIS_DIR_URI . 'inc/politis-companion/' );
 }
 
+// Define Meta Constant
+if( ! defined( 'POLITIS_COMPANION_DIR_META_URL' ) ) {
+    define( 'POLITIS_COMPANION_DIR_META_URL', POLITIS_COMPANION_DIR_URL . 'inc/politis-meta/' );
+}
+
 require_once POLITIS_COMPANION_DIR_PATH . 'politis-init.php';
