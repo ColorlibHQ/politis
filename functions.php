@@ -95,6 +95,13 @@ require_once( POLITIS_DIR_PATH_INC . 'class-epsilon-dashboard-autoloader.php' );
 require_once( POLITIS_DIR_PATH_INC . 'class-epsilon-init-dashboard.php' );
 
 
+function politis_admin_script(){
+    wp_enqueue_style( 'admin_css', get_template_directory_uri().'/assets/css/politis_admin.css', false, '1.0.0' );
+    wp_enqueue_script( 'politis_admin_js', get_template_directory_uri().'/assets/js/politis_admin.js', false, '1.0.0' );
+}
+add_action( 'admin_enqueue_scripts', 'politis_admin_script' );
+
+
 /**
  * Instantiate Politis object
  *
